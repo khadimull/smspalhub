@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "name": "SMSPALSMPP",
+    "app-name": "SMSPALSMPP",
+    "package-name": "static_app",
+    "project-type": "static",
+    "icon": "./assets/icon/icon.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET"
+    ],
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "start": "nodemon server.js",
+        "build": "androidjs build"
+    },
+    "project-name": "SMSPALSMPP",
+    "theme": {
+        "fullScreen": true
+    }
+}
